@@ -1,0 +1,231 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    padding-bottom: 184px;
+    justify-content: center;
+    background-color: rgba(158, 140, 108, 0.1);
+}
+
+h1{
+    font-size: 126px;
+    margin: 0;
+    max-width: 635px;
+    line-height: 110px;
+}
+h2{
+   font-size: 36px; 
+   margin: 0;
+}
+
+h3 {
+    color: rgba(158, 140, 108, 1);
+    text-transform:uppercase
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;    
+}
+
+.header-title h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    margin-left: 125px;
+}
+
+button {
+    background-color: rgba(6, 153, 166, 1);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    padding: 18px 65px;
+    margin-top: 40px;
+} 
+
+.text-block, .first-text-block, .last-text-block {
+    width: 635px;
+}
+
+.text-block{
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+
+.first-text-block{
+    margin-bottom: 66px;
+}
+
+.last-text-block{
+    margin-top: 66px;
+}
+
+.last-text-block .line{
+    margin-bottom: 70px;
+}
+
+.first-text-block h2{
+    margin-bottom: 20px;
+    margin: 0;
+}
+
+.text{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+}
+
+.title-data{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-data h3{
+    font-family: PT Sans Narrow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
+.title-data p{
+    font-family: PT Sans Narrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+}
+
+.line {
+    background-color: #0699A6;
+    max-width: 71px;
+    height: 10px;
+}
+
+.first-text-block .line{
+    margin-top: 80px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.first-ul{
+    margin-top: 0;
+}
+
+.last-ul{
+    color: #0699A6;
+    font-family: PT Sans Narrow;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-family: PT Sans Narrow;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+li h3 {
+    margin: 0;
+}
+
+.list {
+    max-width: 350px;
+}
+
+.traits{
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    padding-top: 177px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(158, 140, 108, 0.1);
+}
+
+footer .container{
+    flex-direction: column;
+}
+
+footer b {
+    color: #0699A6;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+footer h2{
+    font-size: 66px;
+}
+
+.icon img{
+    margin: 23px;
+}
+
+.last-ul a{
+    color: #0699A6;
+}
+
+main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+main .container {
+    flex-direction: row-reverse;
+}
+
+.main-title{
+    width: 640px;
+}
+
+.img1{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    margin-left: -112px;
+    margin-top: 241px;
+}
